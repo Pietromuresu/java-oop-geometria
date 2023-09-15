@@ -36,17 +36,27 @@ public class Main {
 		}
 		
 		System.out.println("\n Rettangolo 1 --------------------------------------- ");
+		System.out.println("Rettangolo 1 Area: " + rettangolo1.base);
+		System.out.println("Rettangolo 1 Area: " + rettangolo1.height);
 		System.out.println("Rettangolo 1 Area: " + rettangolo1.calculateArea());
 		System.out.println("Rettangolo 1 Perimeter: " + rettangolo1.calculatePerimeter());
+		rettangolo1.paintGeometry();
+		
 		
 		System.out.println("\n Rettangolo 2 --------------------------------------- ");
+
+		System.out.println("Rettangolo 1 Area: " + rettangolo2.base);
+		System.out.println("Rettangolo 1 Area: " + rettangolo2.height);
 		System.out.println("Rettangolo 2 Area: " + rettangolo2.calculateArea());
 		System.out.println("Rettangolo 2 Perimeter: " + rettangolo2.calculatePerimeter());
+		rettangolo2.paintGeometry();
 		
 		System.out.println("\n Rettangolo 3 ---------------------------------------  ");
+		System.out.println("Rettangolo 1 Area: " + rettangolo3.base);
+		System.out.println("Rettangolo 1 Area: " + rettangolo3.height);
 		System.out.println("Rettangolo 3 Area: "	+ rettangolo3.calculateArea());
 		System.out.println("Rettangolo 3 Perimeter: "	+ rettangolo3.calculatePerimeter());
-		
+		rettangolo3.paintGeometry();
 		
 	}
 }

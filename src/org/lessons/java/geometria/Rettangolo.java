@@ -26,4 +26,25 @@ public class Rettangolo {
 			return perimeter;
 		}
 		
+		
+		public void paintGeometry() {
+			
+			for(int i = 0; i < base; i++) {
+				System.out.print("o");
+			}
+			
+			System.out.print("\n");
+			for(int i = 1; i < height -1; i++) {
+				System.out.print("o");
+				
+				for(int x = 1; x < base -1; x++) {
+					System.out.print(" ");
+				}
+				System.out.println("o");
+			}
+			
+			for(int i = 0; i < base; i++) {
+				System.out.print("o");
+			}
+		}
 }
