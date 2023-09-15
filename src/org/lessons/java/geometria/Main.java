@@ -7,5 +7,8 @@ public class Main {
 		
 		System.out.println("Base: " + rettangolo1.base);
 		System.out.println("Height: " + rettangolo1.height);
+		
+		System.out.println("Area: " + rettangolo1.calculateArea());
+		System.out.println("Perimeter: " + rettangolo1.calculatePerimeter());
 	}
 }

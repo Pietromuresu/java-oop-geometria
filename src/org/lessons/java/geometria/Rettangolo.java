@@ -11,4 +11,19 @@ public class Rettangolo {
 		}
 		
 		
+		public int calculateArea() {
+			
+			int area = this.base * this.height;
+			
+			return area;
+		}
+		
+		
+		public int calculatePerimeter() {
+			
+			int perimeter = (this.base * 2) + (this.height * 2);
+			
+			return perimeter;
+		}
+		
 }
