@@ -28,11 +28,13 @@ public class Rettangolo {
 		
 		
 		public void paintGeometry() {
-			
+			// Stampo il primo lato (Base)
 			for(int i = 0; i < base; i++) {
 				System.out.print("o");
 			}
 			
+			
+			// Stampo i lati ()
 			System.out.print("\n");
 			for(int i = 1; i < height -1; i++) {
 				System.out.print("o");
@@ -43,6 +45,7 @@ public class Rettangolo {
 				System.out.println("o");
 			}
 			
+			// Stampo la base
 			for(int i = 0; i < base; i++) {
 				System.out.print("o");
 			}

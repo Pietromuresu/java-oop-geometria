@@ -14,6 +14,8 @@ public class Main {
 		Rettangolo rettangolo2 = null;
 		Rettangolo rettangolo3 = null;
 		
+		// Creo i rettangoli
+		
 		for(int i = 1; i < limit + 1; i++) {
 			String rettangoloName = "rettangolo" + i;
 			
@@ -35,6 +37,8 @@ public class Main {
 			}
 		}
 		
+		
+		// Stampo il primo rettangolo 
 		System.out.println("\n Rettangolo 1 --------------------------------------- ");
 		System.out.println("Rettangolo 1 Area: " + rettangolo1.base);
 		System.out.println("Rettangolo 1 Area: " + rettangolo1.height);
@@ -42,7 +46,7 @@ public class Main {
 		System.out.println("Rettangolo 1 Perimeter: " + rettangolo1.calculatePerimeter());
 		rettangolo1.paintGeometry();
 		
-		
+		// Stampo il secondo rettangolo 		
 		System.out.println("\n Rettangolo 2 --------------------------------------- ");
 
 		System.out.println("Rettangolo 1 Area: " + rettangolo2.base);
@@ -51,6 +55,7 @@ public class Main {
 		System.out.println("Rettangolo 2 Perimeter: " + rettangolo2.calculatePerimeter());
 		rettangolo2.paintGeometry();
 		
+		// Stampo il terzo rettangolo 		
 		System.out.println("\n Rettangolo 3 ---------------------------------------  ");
 		System.out.println("Rettangolo 1 Area: " + rettangolo3.base);
 		System.out.println("Rettangolo 1 Area: " + rettangolo3.height);
